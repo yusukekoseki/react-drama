@@ -19,7 +19,7 @@ const App=()=> {
     <Row title="Top Rated" fetchUrl={requests.reactTopRated} />
     <Row title="Comedy Movies" fetchUrl={requests.reactComedyMovies} />
     <Row title="Romance Movies" fetchUrl={requests.reactRomanceMovies} />
-    <Row title="DOcumentaries" fetchUrl={requests.reactDocumentMovies} />
+    <Row title="Documentaries" fetchUrl={requests.reactDocumentMovies} />
     </div>
   );
 }
