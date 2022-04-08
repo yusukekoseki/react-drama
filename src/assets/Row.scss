@@ -1,35 +1,43 @@
 .Row {
-    margin-left: 20px;
     color: #fff;
-
-    &-posters{
-        display:flex;
-        overflow-y:hidden;
-        overflow-x:scroll;
-        padding:20px;
-
-        &::-webkit-scrollbar {
-            display:none;
-        }
+    
+    h2 {
+        margin-left: 20px;
     }
 
+    &-posters {
+      margin-left: 50px;
+      margin-right: 50px;
+      padding-bottom: 50px;
+    }
+  
     &-poster {
-        object-fit: contain;
-        width: 100%;
-        max-height:100px;
-        margin:10px;
-        transition:transform 450ms;
-
-        &-large{
-            max-height:250px;
-
-            &:hover{
-                transform:scale(1.09);
-            }
+      object-fit: contain;
+      max-height: 100px;
+      transition: transform 450ms;
+  
+      &-large {
+        max-height: 250px;
+  
+        &:hover {
+          transform: scale(1.09);
         }
-
-        &:hover{
-            transform:scale(1.08);
-        }
+      }
+  
+      &:hover {
+        transform: scale(1.08);
+      }
     }
-}
+  
+    &-youtube {
+      text-align: center;
+    }
+  }
+  
+  .slick-dots li button:before {
+    color: #ddd !important;
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color:#fff !important;
+  }

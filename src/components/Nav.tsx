@@ -37,4 +37,4 @@ export const Nav = (props:Props) => {
         </div>
 
     )
-}
+};

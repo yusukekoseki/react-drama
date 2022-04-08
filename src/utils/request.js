@@ -1,4 +1,4 @@
-export const API_KEY = "586bcfd3841ef2740a57112bcb943408"
+export const API_KEY = process.env.REACT_APP_TMDB_API_KEY;
 
 export const requests ={
     reachTrending:`/trending/all/week?api_key=${API_KEY}&language=en-us`,
