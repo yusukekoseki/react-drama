@@ -16,7 +16,7 @@ export const Banner = () => {
 
     useEffect(()=>{
         async function fetchData() {
-            const request = await axios.get(requests.feachNetflixOriginals);
+            const request = await axios.get(requests.reachNetflixOriginals);
 
             setMovie(
                 request.data.results[
