@@ -12,16 +12,14 @@ const App=()=> {
     <Nav />
     <Banner />
     <Row
-      title="NETFLIX ORIGUINALS"
-      fetchUrl={requests.feachNetflixOriginals}
+      title="NETFLIX ORIGINALS"
+      fetchUrl={requests.reachNetflixOriginals}
       isLargeRow
     />
-    <Row title="Top Rated" fetchUrl={requests.feactTopRated} />
-    <Row title="Action Movies" fetchUrl={requests.feactActionMovies} />
-    <Row title="Comedy Movies" fetchUrl={requests.feactComedyMovies} />
-    <Row title="Horror Movies" fetchUrl={requests.feactHorrorMovies} />
-    <Row title="Romance Movies" fetchUrl={requests.feactRomanceMovies} />
-    <Row title="DOcumentaries" fetchUrl={requests.feactDocumentMovies} />
+    <Row title="Top Rated" fetchUrl={requests.reactTopRated} />
+    <Row title="Comedy Movies" fetchUrl={requests.reactComedyMovies} />
+    <Row title="Romance Movies" fetchUrl={requests.reactRomanceMovies} />
+    <Row title="DOcumentaries" fetchUrl={requests.reactDocumentMovies} />
     </div>
   );
 }
